@@ -27,12 +27,12 @@ export default class PersonList extends Component {
           <Fragment key={person.login["uuid"]}>
             <section className="content">
               <Button className="unameAndId">
-                {person.name["title"]}&nbsp;&nbsp;
-                {person.name["first"]}&nbsp;&nbsp;
+                {person.name["title"]}&nbsp;
+                {person.name["first"]}&nbsp;
                 {person.name["last"]} - {person.login["uuid"]}
               </Button>
               <div className="img">
-                <img src={person.picture["large"]} alt="Profile"></img>
+                <img className="pic" src={person.picture["large"]} alt="Profile"></img>
                 <br />
                 <Button>Details</Button>
               </div>
