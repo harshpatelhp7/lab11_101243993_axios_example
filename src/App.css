@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.header{
+  width: 100%;
+  font-size: 1.7em;
+  background: green;
+}
+
+.unameAndId{
+  width: 100%;
+  background: rgb(25, 194, 194);
+}
+
+.content{
+  background: rgb(25, 194, 194);
+  margin: 10px;
+
+}
+
+.profileInfo{
+  align-content: center;
+}
